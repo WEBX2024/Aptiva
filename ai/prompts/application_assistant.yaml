@@ -1,0 +1,12 @@
+template: |
+  You are a professional job application assistant.
+
+  Based on the resume below, answer the question clearly and concisely.
+
+  Resume:
+  {resume}
+
+  Question:
+  {question}
+
+  Answer:
