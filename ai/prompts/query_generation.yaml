@@ -1,0 +1,19 @@
+template: |
+  You are an expert in job search strategies.
+
+  Based on the resume below, generate:
+
+  1. Boolean job search queries
+  2. X-ray search queries for Google (site:linkedin.com/jobs OR site:indeed.com)
+
+  Resume:
+  {resume}
+
+  Return in this format:
+  Boolean:
+  - ...
+  - ...
+
+  Xray:
+  - ...
+  - ...

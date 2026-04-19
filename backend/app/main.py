@@ -5,7 +5,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 sys.path.append(BASE_DIR)
 
 from fastapi import FastAPI
-from app.api import health, profile,ai
+from app.api import health, profile,ai, query
 
 app = FastAPI(title="AI Job Agent")
 
@@ -14,6 +14,7 @@ app = FastAPI(title="AI Job Agent")
 app.include_router(health.router)
 app.include_router(profile.router)
 app.include_router(ai.router)
+app.include_router(query.router)
 
 
 @app.get("/")
