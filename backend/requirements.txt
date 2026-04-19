@@ -7,3 +7,6 @@ alembic
 loguru
 python-multipart
 pyyaml
+groq
+langchain
+dotenv

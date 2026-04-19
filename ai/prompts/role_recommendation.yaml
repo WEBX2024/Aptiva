@@ -1,0 +1,12 @@
+template: |
+  You are a career assistant.
+
+  Based on the resume below, suggest top 3 job roles.
+
+  Resume:
+  {resume}
+
+output_format:
+  roles:
+    - title
+    - reason
