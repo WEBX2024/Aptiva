@@ -1,0 +1,2 @@
+class AIConfig:
+    MODEL = "groq"

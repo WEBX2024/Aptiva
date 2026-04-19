@@ -1,0 +1,1 @@
+APP_NAME = "AI Job Agent"

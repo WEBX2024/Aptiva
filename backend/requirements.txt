@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-dotenv
+pydantic
+sqlalchemy
+alembic
+loguru
+python-multipart
+pyyaml
